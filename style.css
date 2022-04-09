@@ -12,16 +12,20 @@ body{
 
 }
 .header,.content,.footer{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 180px;
+    padding-right: 180px;
 
+}
+.title{
+    padding-left: 180px;
+    padding-right: 180px;
 }
 /*header*/
 .header{
     display: flex;
     justify-content : space-between;
     background-color: #1F2937;
-    padding-top: 8px;
+    padding-top: 15px;
     flex-shrink: 0;
     gap: 12px;
 
@@ -32,12 +36,18 @@ body{
     height: 125px;
 }
 .liens{
+    display: flex;
     color: white;  
-    gap: 10px;
+    gap: 15px;
+    height: 20px;
+    
 }
 a{
     text-decoration: none;
     color: white;
+}
+a:hover{
+    color: skyblue;
 }
 /*title*/
 .title{
@@ -47,24 +57,28 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: ;
-    padding: 50px;
     gap: 20px;
-    height: 300px;
+    height: 400px;
 
 }
-.left-title{
+.title_image{
+    width: 200px;
     display: flex;
-    flex: 1 0 auto;
-    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.left-title{
+    
 }
 button{
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
+    height: 35px;
     padding: 8px;
     margin: 0px;
     border: 0px;
+    margin-top: 10px;
 }
 h1{
     font-size: 48px;
@@ -78,6 +92,7 @@ h1{
     display: flex;
     justify-content: safe center;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 .titre-content{
     display: flex;
@@ -93,15 +108,29 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap : 10px
+
 }
 .conteneur{
 
     border-width: 5px;
     height: 140px;
     width: 200px;
-    border-color: skyblue;
+    border-color: #3882F6;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 12px;
     flex-shrink: 0;
+    display: flex;
+    margin: 0px;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 8px;
+
+}
+quote{
+    margin-top:  ;
 }
